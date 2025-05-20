@@ -11,5 +11,5 @@ jobs:
         run: echo "Hello World!"
       # list all files in the currend directory bla bla
       - run: ls -l
-      - uses: actions/chechout@v2
+      - uses: actions/checkout@v2
       - run: ls -l
